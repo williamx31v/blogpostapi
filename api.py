@@ -28,6 +28,7 @@ def post():
 	con.close
 	return "OK"
 
+#define the get endpoint
 @app.route('/blogposts/api/v1.0/posts', methods=['GET'])
 def get():
 	con=sqlite3.connect(DATABASE)
