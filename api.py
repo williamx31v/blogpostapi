@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 #set the database path
-DATABASE='/home/william/blogpostapi/blog.db'
+DATABASE='/usr/local/blogpostapi/blog.db'
 
 #define the api post endpoint
 @app.route('/blogposts/api/v1.0/post', methods=['POST'])
